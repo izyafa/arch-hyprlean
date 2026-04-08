@@ -1,5 +1,5 @@
 # Arch Lightweight Hyprland Setup
-This is a hyprland setup for my business-grade laptop with 8 gigs of ram that is dual-booting Win10 and Arch.
+This will be a hyprland setup for my business-grade laptop with 8 gigs of ram that is dual-booting Win10 and Arch. (not done yet)
 
 ### End Goals:
 - RAM usage on idle is 1 GB or less.
@@ -9,8 +9,13 @@ This is a hyprland setup for my business-grade laptop with 8 gigs of ram that is
 - User can choose when to go full on keyboard for works or pure mouse for quality of life
 - Looks beautiful (riced) when it can be, or save more memory when it needs to be
 
+### Rules:
+- Try to use less daemon
+- Modularized the Dotfiles for easy configuration
+
 ## Configurations
 Software, utilities, and miscellaneous stuff used to achieve said goals
+
 ### Plugins/Utility used:
 - Waybar (Workspace, Running App, Hardware, and system control mgmt.)
 - Fuzzel                (Launchers)
@@ -31,6 +36,11 @@ Software, utilities, and miscellaneous stuff used to achieve said goals
 - Foot                  (Terminal)
 - VSCodium              (IDE)
 - LibreOffice           (Office Suites)
-- Virt-Manager (QEMU)   (Virtualization)
 - NeoVim                (Text editor)
 - Ghostwriter           (Note taking... or just use NVim)
+
+### I have yet to fully figure out
+- Gaming
+- Multiple firefox profiles mgmt
+- Study and work mgmt
+- Virtualization (to run MS Office Suite without dual-booting)

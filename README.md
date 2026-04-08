@@ -6,10 +6,10 @@ This is a hyprland setup for my business-grade laptop with 8 gigs of ram that is
 - Easy media and file transfer between phone and the laptop.
 - Floating window for Wi-Fi, Bluetooth, Speaker, notif, etc.
 - Looks beautiful when it can be, save more memory when it needs to be
-- Syncronized WhatsApp, Social media, and Browser stuff
-- 
+- Syncronized WhatsApp, Social media, and Browser stuff 
 
 # Configurations
+Software, utilities, and miscellaneous stuff used to achieve said goals
 ## Plugins/Utility used
 - Waybar (Workspace, Running App, Hardware, and system control mgmt.)
 - Fuzzel                (Launchers)
@@ -28,4 +28,4 @@ This is a hyprland setup for my business-grade laptop with 8 gigs of ram that is
 - Dolphin               (File Manager)
 - KDE Connect           (Device integration)
 - Foot                  (Terminal)
-
+- VSCodium              (IDE)

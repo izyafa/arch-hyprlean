@@ -8,7 +8,7 @@ CURRENT_TRANSFORM=$(hyprctl monitors -j | jq -r ".[] | select(.name==\"$MONITOR\
 
 # notify for script
 
-notify-send "Rotation" "Script triggered for $MONITOR"
+# notify-send "Rotation" "Script triggered for $MONITOR"
 
 # Calculate the next transform state (Cycle: 0 -> 1 -> 2 -> 3 -> 0)
 if [ "$CURRENT_TRANSFORM" == "0" ]; then
@@ -24,3 +24,5 @@ fi
 notify-send "Rotation" "Flipped to $NEXT_TRANSFORM"
 
 hyprctl keyword monitor "$MONITOR,preferred,auto,1,transform,$NEXT_TRANSFORM"
+
+# for some reason the text inside terminal becomes smaller. isssue for later me
